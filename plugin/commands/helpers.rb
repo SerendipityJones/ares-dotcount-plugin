@@ -25,6 +25,8 @@ module AresMUSH
               "current_xp" => current_xp,
               "max_attrs" => max_attrs,
               "max_action" => max_action,
+              "spent_attrs" => spent_attrs,
+              "spent_action" => spent_action,
               "remaining_action" => remaining_action,
               "remaining_attrs" => remaining_attrs,
               "poor_attr" => poor_attr,

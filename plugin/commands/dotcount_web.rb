@@ -1,7 +1,9 @@
 module AresMUSH
     module Dotcount  
       def self.web_dotcount(char)
-        Dotcount.calculate_dots(char, Character, char)
+        result = Dotcount.calculate_dots(char, Character, char)
+        remaining_attrs = result["remaining_attrs"]
+        remaining_action = result["remaining_action"]
         if remaining_attrs == 0 && remaining_action == 0
           msg = t('dotcount.web_max_both')
         elsif remaining_attrs == 0
