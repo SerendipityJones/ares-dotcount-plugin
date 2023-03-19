@@ -4,7 +4,6 @@ module AresMUSH
         "1.0"
       end  
       def self.calculate_dots(name, client, enactor)
-        max_xp = Global.read_config("fs3skills", "max_xp_hoard")
         max_attrs = Global.read_config("fs3skills", "max_points_on_attrs")/2 + Global.read_config("fs3skills", "attr_dots_beyond_chargen_max") + Global.read_config('fs3skills', 'attributes').length * 2
         max_action = Global.read_config("fs3skills", "max_points_on_action") + Global.read_config("fs3skills", "action_dots_beyond_chargen_max") + Global.read_config('fs3skills', 'action_skills').length
         poor_attr = false
@@ -22,7 +21,7 @@ module AresMUSH
             remaining_action = max_action - spent_action
             current_xp = model.xp
             {
-              max_xp: max_xp,
+              max_xp: Global.read_config("fs3skills", "max_xp_hoard"),
               current_xp: current_xp,
               max_attrs: max_attrs,
               max_action: max_action,
