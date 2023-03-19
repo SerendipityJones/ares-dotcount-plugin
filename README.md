@@ -40,7 +40,7 @@ To show this information on the web profile, some manual editing is necessary. P
     end
 ```
 
-3. Edit `ares-webportal/blob/master/app/templates/components/fs3-xp.hbs` and add this to the end:
+3. Edit `ares-webportal/app/templates/components/fs3-xp.hbs` and add this to the end:
 
 ```
 <div class="dotcount">

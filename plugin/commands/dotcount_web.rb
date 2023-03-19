@@ -16,7 +16,7 @@ module AresMUSH
             msg += t('dotcount.web_more_action', :remaining_action => remaining_action)
           end
         end
-        if poor_attr
+        if result["poor_attr"]
           msg += t('dotcount.poor_note_web')
         end
         return msg
