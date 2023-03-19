@@ -9,3 +9,4 @@ en:
       web_max_actions: "are at max in Action Skills."
       web_more_attrs: "You have %{remaining_attrs} more dot%{plural} to place in Attributes and "
       web_more_actions: "%{remaining_action} for Action Skills."
+      no_sheet: "%{name} doesn't have a sheet."

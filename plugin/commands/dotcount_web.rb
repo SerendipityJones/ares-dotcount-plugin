@@ -2,6 +2,9 @@ module AresMUSH
     module Dotcount  
       def self.web_dotcount(char)
         result = Dotcount.calculate_dots(char, Character, char)
+        if !result 
+          return false
+        end
         remaining_attrs = result["remaining_attrs"]
         remaining_action = result["remaining_action"]
         if remaining_attrs == 0 && remaining_action == 0
