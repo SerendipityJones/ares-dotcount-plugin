@@ -21,13 +21,13 @@ module AresMUSH
             remaining_action = max_action - spent_action
             current_xp = model.xp
             {
-              max_xp: Global.read_config("fs3skills", "max_xp_hoard"),
-              current_xp: current_xp,
-              max_attrs: max_attrs,
-              max_action: max_action,
-              remaining_action: remaining_action,
-              remaining_attrs: remaining_attrs,
-              poor_attr: poor_attr,
+              "max_xp" => Global.read_config("fs3skills", "max_xp_hoard"),
+              "current_xp" => current_xp,
+              "max_attrs" => max_attrs,
+              "max_action" => max_action,
+              "remaining_action" => remaining_action,
+              "remaining_attrs" => remaining_attrs,
+              "poor_attr" => poor_attr,
             }
         end
       end    
