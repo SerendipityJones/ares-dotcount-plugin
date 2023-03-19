@@ -11,9 +11,9 @@ module AresMUSH
         else
           msg =t('dotcount.web_more_attrs',:remaining_attrs => remaining_attrs, :plural => remaining_attrs == 1 ? '' : 's' )
           if remaining_action == 0
-            msg += t('dotcount.web_max_action')
+            msg += t('dotcount.web_max_actions')
           else
-            msg += t('dotcount.web_more_action', :remaining_action => remaining_action)
+            msg += t('dotcount.web_more_actions', :remaining_action => remaining_action)
           end
         end
         if result["poor_attr"]
