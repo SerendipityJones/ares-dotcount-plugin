@@ -58,6 +58,9 @@ To show this information on the web profile, some manual editing is necessary. P
 </div>
 ```
 
+This will result in the bottom of the XP tab looking something like this:
+![picture of web dotcount](dotcount_web.jpg)
+
 ## Uninstalling
 
 Removing the plugin requires some code fiddling.  See [Uninstalling Plugins](https://www.aresmush.com/tutorials/code/extras.html#uninstalling-plugins).
