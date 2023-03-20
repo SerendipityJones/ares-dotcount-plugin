@@ -10,7 +10,15 @@ For games using FS3, the Dotcount command allows a player to monitor the status 
 
     +--- O~~m -------------------------------------------------------------------+
     Total dots on Ren's sheet:
+         Attributes...........15 / 20
+         Action Skills........55 / 60
+         Current XP............4 / 10
+    +------------------------------------------------------------------- O~~m ---+
 
+    or
+
+    +--- O~~m -------------------------------------------------------------------+
+    Total dots on Ren's sheet:
          Attributes...........15 / 19
          Action Skills........55 / 60
          Current XP............4 / 10
