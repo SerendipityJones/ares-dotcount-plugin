@@ -36,7 +36,7 @@ To show this information on the web profile, some manual editing is necessary. P
 
 1. In the game, run `plugin/install https://github.com/SerendipityJones/ares-dotcount-plugin`.
 
-### If you only want this for client users, you can stop there. To add it to the bottom of the XP tab on character profiles:
+#### If you only want this for client users, you can stop there. To add it to the bottom of the XP tab on character profiles:
 
 2. Edit `aresmush/plugins/profile/custom_char_fields.rb` (you can do this from the web portal's custom code area) to add `dotcount: Dotcount.web_dotcount(char.name)` to `self.get_fields_for_viewing`. If you haven't added any other custom fields, that section should end up looking like:
 
