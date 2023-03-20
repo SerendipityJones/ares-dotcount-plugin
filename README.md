@@ -30,7 +30,7 @@ To show this information on the web profile, some manual editing is necessary. P
 
 ### If you only want this for client users, you can stop there. To add it to the bottom of the XP tab on character profiles:
 
-2. Edit `aresmush/plugins/profile/custom_char_fields.rb` to add `dotcount: Dotcount.web_dotcount(char.name)` to `self.get_fields_for_viewing`. If you haven't added any other custom fields, that section should end up looking like:
+2. Edit `aresmush/plugins/profile/custom_char_fields.rb` (you can do this from the web portal's custom code area) to add `dotcount: Dotcount.web_dotcount(char.name)` to `self.get_fields_for_viewing`. If you haven't added any other custom fields, that section should end up looking like:
 
 ``` 
     def self.get_fields_for_viewing(char, viewer)
@@ -40,7 +40,7 @@ To show this information on the web profile, some manual editing is necessary. P
     end
 ```
 
-3. Edit `ares-webportal/app/templates/components/fs3-xp.hbs` and add this to the end:
+3. Edit `ares-webportal/app/templates/components/fs3-xp.hbs` (you will need to ssh into your shell for this one) and add this to the end:
 
 ```
 <div class="dotcount">
