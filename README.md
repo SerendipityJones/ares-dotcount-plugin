@@ -8,16 +8,15 @@ This plugin was coded by Ren @ AresCentral, inspired by a similar command that e
 
 For games using FS3, the Dotcount command allows a player to monitor the status of their stats with respect to the game's cap for Attributes and Action Skills. For example:
 
-```
     +--- O~~m -------------------------------------------------------------------+
     Total dots on Ren's sheet:
          Attributes...........15 / 20
          Action Skills........55 / 60
          Current XP............4 / 10
     +------------------------------------------------------------------- O~~m ---+
-```
+
 or
-```
+
     +--- O~~m -------------------------------------------------------------------+
     Total dots on Ren's sheet:
          Attributes...........15 / 19
@@ -26,7 +25,7 @@ or
 
     An Attribute at Poor lowers the Attribute cap by 1. The cap will rise if the Attribute is bought up to 2.
     +------------------------------------------------------------------- O~~m ---+
-```       
+      
 
 ## Web Portal
 
