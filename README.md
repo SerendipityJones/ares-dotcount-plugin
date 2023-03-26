@@ -23,7 +23,7 @@ or
          Action Skills........55 / 60
          Current XP............4 / 10
 
-    An Attribute at Poor lowers the Attribute cap by 1. The cap will rise if the Attribute is bought up to 2.
+    An Attribute at Poor lowers the Attribute cap by 1.
     +------------------------------------------------------------------- O~~m ---+
       
 

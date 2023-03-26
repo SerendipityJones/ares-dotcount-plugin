@@ -1,8 +1,8 @@
 ---
 en:
   dotcount:
-      poor_note_client: "%R%RAn Attribute at Poor lowers the Attribute cap by 1. The cap will rise if the Attribute is bought up to 2."
-      poor_note_web: "<br/>Raising a 'poor' Attribute to 'average' will not subtract from your remaining attribute dots."
+      poor_note_client: "%R%RAn Attribute at Poor lowers the Attribute cap by 1."
+      poor_note_web: "<br/>An Attribute at Poor lowers the Attribute cap by 1."
       result_client: "Total dots on %{name}'s sheet:%R%TAttributes...........%{spent_attrs} / %{max_attrs}%R%TAction Skills........%{spent_action} / %{max_action}%R%TCurrent XP...........%{pad_xp}%{current_xp} / %{max_xp}%{note}"
       web_max_both: "Your Attributes and Action Skills are both at max!"
       web_max_attrs: "Your Attributes are at max, and you have %{remaining_action} more dot%{plural} to place in Action Skills."
