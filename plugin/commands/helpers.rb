@@ -1,8 +1,10 @@
 module AresMUSH
     module Dotcount
+
       def self.version
         "1.0"
       end  
+
       def self.calculate_dots(name, client, enactor)
         max_attrs = Global.read_config("fs3skills", "max_points_on_attrs")/2 + Global.read_config("fs3skills", "attr_dots_beyond_chargen_max") + Global.read_config('fs3skills', 'attributes').length * 2
         max_action = Global.read_config("fs3skills", "max_points_on_action") + Global.read_config("fs3skills", "action_dots_beyond_chargen_max") + Global.read_config('fs3skills', 'action_skills').length
@@ -35,6 +37,7 @@ module AresMUSH
               "poor_attr" => poor_attr,
             }
         end
-      end    
+      end 
+         
     end
   end
