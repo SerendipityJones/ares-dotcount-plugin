@@ -51,11 +51,13 @@ To show this information on the web profile, some manual editing is necessary. P
 3. Edit `ares-webportal/app/templates/components/fs3-xp.hbs` (you will need to ssh into your shell for this one) and add this to the end:
 
 ```
-<div class="dotcount">
-  <hr/>
-  <h2>Dotcount</h2>
-  {{{this.char.custom.dotcount}}}
-</div>
+{{#if this.char.custom.dotcount}}
+  <div class="dotcount">
+    <hr/>
+    <h2>Dotcount</h2>
+    {{{this.char.custom.dotcount}}}
+  </div>
+{{/if}}
 ```
 
 This will result in the bottom of the XP tab looking something like this:
