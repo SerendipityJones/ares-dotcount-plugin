@@ -10,7 +10,7 @@ module AresMUSH
         max_action = Global.read_config("fs3skills", "max_points_on_action") + Global.read_config("fs3skills", "action_dots_beyond_chargen_max") + Global.read_config('fs3skills', 'action_skills').length
         poor_attr = false
         ClassTargetFinder.with_a_character(name, client, enactor) do |model|
-          if FS3Skills::AbilityPointCounter.points_on_attrs(model) == 0 
+          if FS3Skills::AbilityPointCounter.points_on_attrs(model) == 0 && FS3Skills::AbilityPointCounter.points_on_action(model) == 0
             return false
           end  
           spent_attrs = FS3Skills::AbilityPointCounter.points_on_attrs(model)/2 + Global.read_config('fs3skills', 'attributes').length * 2
@@ -38,6 +38,6 @@ module AresMUSH
             }
         end
       end 
-         
+
     end
   end

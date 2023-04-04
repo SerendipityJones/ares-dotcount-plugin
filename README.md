@@ -63,6 +63,8 @@ To show this information on the web profile, some manual editing is necessary. P
 This will result in the bottom of the XP tab looking something like this:
 ![picture of web dotcount](dotcount_web.jpg)
 
+Please be aware it will only show up for a character whose sheet shows at least one dot above baseline in Attributes or Action Skills.
+
 ## Uninstalling
 
 Removing the plugin requires some code fiddling.  See [Uninstalling Plugins](https://www.aresmush.com/tutorials/code/extras.html#uninstalling-plugins).
